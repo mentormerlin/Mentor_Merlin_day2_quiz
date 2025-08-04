@@ -22,8 +22,8 @@ const questions = [
         type: 'mcq',
         question: 'For how many years is NMC registration initially valid?',
         options: ['1 year', '2 years', '3 years', '5 years'],
-        correctIndex: 1,
-        explanation: 'NMC registration is initially valid for 2 years and can be extended after meeting exam and ID check requirements.'
+        correctIndex: 2,
+        explanation: 'NMC registration is initially valid for 3 years and can be extended after meeting exam and ID check requirements.'
     },
     {
         id: 3,
@@ -45,9 +45,9 @@ const questions = [
         id: 5,
         type: 'mcq',
         question: 'What is the passing score requirement for Part A of CBT?',
-        options: ['8 correct answers', '9 correct answers', '10 correct answers', '12 correct answers'],
-        correctIndex: 2,
-        explanation: 'Part A of the CBT requires a minimum of 10 correct answers to pass.'
+        options: ['8 correct answers', '13 correct answers', '10 correct answers', '12 correct answers'],
+        correctIndex: 1,
+        explanation: 'Part A of the CBT requires a minimum of 13 correct answers to pass.'
     },
     {
         id: 6,
@@ -125,17 +125,17 @@ const questions = [
         id: 15,
         type: 'mcq',
         question: 'What is the fee for a partial OSCE resit?',
-        options: ['£294', '£394', '£494', '£594'],
+        options: ['£294', '£397', '£494', '£594'],
         correctIndex: 1,
-        explanation: 'Partial OSCE resit costs £394 if you fail 1 to 7 stations.'
+        explanation: 'Partial OSCE resit costs £397 if you fail 1 to 7 stations.'
     },
     {
         id: 16,
         type: 'mcq',
-        question: 'How many APIE stations are in the OSCE exam?',
-        options: ['2', '3', '4', '5'],
-        correctIndex: 2,
-        explanation: 'There are 4 APIE stations: Assessment, Planning, Implementation, and Evaluation.'
+        question: 'How many stations are in the OSCE exam?',
+        options: ['2', '3', '4', '10'],
+        correctIndex: 3,
+        explanation: 'There are 10 stations in OSCE exam.'
     },
     {
         id: 17,
