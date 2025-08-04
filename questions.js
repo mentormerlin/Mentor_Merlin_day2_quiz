@@ -12,186 +12,161 @@ const questions = [
     {
         id: 1,
         type: 'mcq',
-        question: 'When was Cyril Roy Consultancy Pvt. Ltd. (Mentor Merlin) founded?',
-        options: [' 2015', ' 2018', ' 2021', ' 2019'],
-        correctIndex: 1, // 2018
-        explanation:
-            'Cyril Roy Consultancy Private Limited, operating as Mentor Merlin, was incorporated on 27 June 2018 and began offering training programmes soon after.'
+        question: 'What is the fee for the OSCE CPD Accredited Program?',
+        options: ['£699.79', '£899.79', '£999.79', '£1099.79'],
+        correctIndex: 1,
+        explanation: 'The OSCE CPD Accredited Program costs £899.79 according to Mentor Merlin\'s official course details.'
     },
     {
         id: 2,
         type: 'mcq',
-        question: "What is Mentor Merlin's motto?",
-        options: [' Learn Fast, Pass First', ' Nurses First', ' Why wait? Just Merlin it!', ' Excellence through Exams'],
-        correctIndex: 2,
-        explanation:
-            "Mentor Merlin’s tagline on its home page proudly reads: 'Why Wait? Just Merlin It!', highlighting their commitment to swift, effective learning." 
+        question: 'For how many years is NMC registration initially valid?',
+        options: ['1 year', '2 years', '3 years', '5 years'],
+        correctIndex: 1,
+        explanation: 'NMC registration is initially valid for 2 years and can be extended after meeting exam and ID check requirements.'
     },
     {
         id: 3,
         type: 'mcq',
-        question: 'What does the Mentor Merlin India (CRC) team handle globally?',
-        options: [
-            ' Only HR tasks',
-            ' Only CBT training',
-            ' Operations, content, and all training (except UK OSCE)',
-            ' UK exams only'
-        ],
-        correctIndex: 2,
-        explanation:
-            'The India (CRC) team manages operations, content creation and all training activities for Mentor Merlin worldwide except the UK OSCE programme.'
+        question: 'How many modules are there in OET?',
+        options: ['Three', 'Four', 'Five', 'Six'],
+        correctIndex: 1,
+        explanation: 'OET consists of four modules: Reading, Listening, Writing, and Speaking.'
     },
     {
         id: 4,
         type: 'mcq',
-        question: 'Which statement best describes Mentor Merlin UK Ltd?',
-        options: [
-            ' Offers all online courses',
-            ' Handles nurse migration',
-            ' Dedicated only to OSCE training in the UK',
-            ' Offers OET and CBT coaching'
-        ],
-        correctIndex: 2,
-        explanation:
-            'Mentor Merlin UK Ltd primarily focuses on preparing nurses for the NMC OSCE exam through dedicated on‑site training in the United Kingdom.'
+        question: 'How much is the NMC evaluation fee?',
+        options: ['£140', '£153', '£83', '£299'],
+        correctIndex: 0,
+        explanation: 'The NMC evaluation stage fee is £140, paid during the first stage of registration.'
     },
     {
         id: 5,
         type: 'mcq',
-        question: 'What city was the first UK OSCE centre by Mentor Merlin opened in?',
-        options: [' Leeds', ' London', ' Manchester', ' Northampton'],
-        correctIndex: 3,
-        explanation:
-            'Mentor Merlin established its first dedicated UK OSCE training centre in Northampton to serve nurses seeking on‑site preparation.'
+        question: 'What is the passing score requirement for Part A of CBT?',
+        options: ['8 correct answers', '9 correct answers', '10 correct answers', '12 correct answers'],
+        correctIndex: 2,
+        explanation: 'Part A of the CBT requires a minimum of 10 correct answers to pass.'
     },
     {
         id: 6,
         type: 'mcq',
-        question: 'What was introduced by Mentor Merlin in 2024?',
-        options: [
-            ' OET Live Coaching',
-            ' CBT Mobile App',
-            ' Visitor Visa OSCE (VC OSCE) Programme',
-            ' Nurses Abroad Campaign'
-        ],
-        correctIndex: 2,
-        explanation:
-            'In 2024 Mentor Merlin launched its Visitor Visa OSCE (VC OSCE) programme, allowing nurses to complete OSCE training on a visitor visa in the UK.'
+        question: 'How long is the CBT result valid from the date of issue?',
+        options: ['1 year', '2 years', '3 years', '5 years'],
+        correctIndex: 1,
+        explanation: 'CBT results are valid for 2 years from the date they are issued.'
     },
     {
         id: 7,
         type: 'mcq',
-        question: "What does the 'Mentor Merlin History and Culture' session aim to do?",
-        options: [
-            ' Train nurses in OSCE',
-            ' Build connection, confidence and belief in Mentor Merlin’s future',
-            ' Teach CRM tools',
-            ' Recruit mentors'
-        ],
-        correctIndex: 1,
-        explanation:
-            'The History and Culture session familiarises trainees with Mentor Merlin’s journey and values, building connection, confidence and belief in the company’s future.'
+        question: 'Which platform conducts the CBT exam?',
+        options: ['Pearson VUE', 'British Council', 'IDP', 'Cambridge'],
+        correctIndex: 0,
+        explanation: 'The CBT exam is conducted by Pearson VUE.'
     },
     {
         id: 8,
         type: 'mcq',
-        question: 'What is a common concern for nurses planning to move to the UK?',
-        options: [
-            ' Lack of public transport',
-            ' Paperwork and exam fears',
-            ' Shortage of shopping malls',
-            ' Cultural food differences'
-        ],
-        correctIndex: 1,
-        explanation:
-            'Most nurses worry about navigating complex paperwork and passing the required English‑language and clinical exams when relocating to the UK.'
+        question: 'What book is provided with the OET course?',
+        options: ['Merlin Book of OET', 'OET Success Guide', 'Oxford OET Book', 'None'],
+        correctIndex: 0,
+        explanation: 'The OET course includes the Merlin Book of OET for comprehensive preparation.'
     },
     {
         id: 9,
         type: 'mcq',
-        question: 'Which online platforms do most nurses use to research about UK NMC registration?',
-        options: [
-            ' Instagram and LinkedIn',
-            ' WhatsApp groups and Facebook groups',
-            ' Pinterest and Twitter',
-            ' Medium and Reddit'
-        ],
-        correctIndex: 1,
-        explanation:
-            'Nurses often join dedicated WhatsApp and Facebook groups to share information and experiences about the UK NMC registration process.'
+        question: 'How many lessons are provided per module in OET?',
+        options: ['15', '18', '21', '25'],
+        correctIndex: 2,
+        explanation: 'Each OET module contains 21 lessons for thorough coverage.'
     },
     {
         id: 10,
         type: 'mcq',
-        question: 'What is the mission of Mentor Merlin?',
-        options: [
-            ' Become the largest coaching provider',
-            ' Empower nurses through learning',
-            ' Launch training apps for doctors',
-            ' Support only UK‑based nurses'
-        ],
+        question: 'How many parts are in the CBT exam?',
+        options: ['One', 'Two', 'Three', 'Four'],
         correctIndex: 1,
-        explanation:
-            'Mentor Merlin’s mission is to empower nurses by providing comprehensive learning resources that help them achieve professional success.'
+        explanation: 'The CBT exam has two parts: Part A (Numeracy) and Part B (Clinical).'
     },
     {
         id: 11,
         type: 'mcq',
-        question: 'Which tool is used by Mentor Merlin for handling chats and support?',
-        options: [' HubSpot', ' Intercom', ' Chatwoot', ' Salesforce'],
-        correctIndex: 2,
-        explanation:
-            'The chat bubble on Mentor Merlin’s website is powered by Chatwoot – an open‑source customer support platform used for real‑time chat and ticketing.'
+        question: 'Who gets the OET Grammar Module?',
+        options: ['All candidates', 'Candidates who fail the grammar quiz', 'Candidates from the UK only', 'Candidates who fail OET'],
+        correctIndex: 1,
+        explanation: 'Candidates who fail the initial grammar quiz must complete the 7-day grammar module.'
     },
     {
         id: 12,
         type: 'mcq',
-        question: 'How many nurses have successfully passed their OSCE with Mentor Merlin’s help (as of 2025)?',
-        options: [' Over 1,000', ' Over 5,000', ' Over 10,000', ' Over 50,000'],
-        correctIndex: 2,
-        explanation:
-            'Mentor Merlin proudly advertises that more than 10,000 nurses have passed their OSCE with its guidance by 2025.'
+        question: 'What is the total fee for taking the full OSCE exam?',
+        options: ['£694', '£794', '£894', '£994'],
+        correctIndex: 1,
+        explanation: 'The full OSCE exam fee is £794.'
     },
     {
         id: 13,
         type: 'mcq',
-        question: 'Why do nurses choose the UK as their career destination?',
-        options: [
-            ' For tourism',
-            ' For climate',
-            ' For better salary, career growth and stability',
-            ' Because of language similarity'
-        ],
-        correctIndex: 2,
-        explanation:
-            'The UK offers nurses attractive salaries, clear career progression and long‑term job stability, making it a preferred destination.'
+        question: 'What is the course fee for the OET Premium Crack Course?',
+        options: ['£299.79', '£199.79', '£399.79', '£250.00'],
+        correctIndex: 0,
+        explanation: 'The OET Premium Crack Course costs £299.79.'
     },
     {
         id: 14,
         type: 'mcq',
-        question: 'What are the core values of Mentor Merlin?',
-        options: [
-            ' Quality, Speed, Aggression',
-            ' Excellence, Integrity, Innovation, Support',
-            ' Fame, Vision, Team',
-            ' Freedom, Profit, Service'
-        ],
-        correctIndex: 1,
-        explanation:
-            'Mentor Merlin upholds excellence, integrity, innovation and support as its guiding values – the pillars upon which its training programmes are built.'
+        question: 'What is the fee for the Short-Term CBT course?',
+        options: ['£49.79', '£59.79', '£89.79', '£99.79'],
+        correctIndex: 0,
+        explanation: 'The Short-Term CBT course fee is £49.79.'
     },
     {
         id: 15,
         type: 'mcq',
-        question: 'What is a key expectation nurses have from sales consultants?',
-        options: [
-            ' Fast application form filling',
-            ' Transparent, patient communication and support',
-            ' Surprise discounts',
-            ' Only email follow‑up'
-        ],
+        question: 'What is the fee for a partial OSCE resit?',
+        options: ['£294', '£394', '£494', '£594'],
         correctIndex: 1,
-        explanation:
-            'Nurses expect sales consultants to patiently answer questions and provide transparent guidance, building trust throughout the application process.'
+        explanation: 'Partial OSCE resit costs £394 if you fail 1 to 7 stations.'
+    },
+    {
+        id: 16,
+        type: 'mcq',
+        question: 'How many APIE stations are in the OSCE exam?',
+        options: ['2', '3', '4', '5'],
+        correctIndex: 2,
+        explanation: 'There are 4 APIE stations: Assessment, Planning, Implementation, and Evaluation.'
+    },
+    {
+        id: 17,
+        type: 'mcq',
+        question: 'How many clinical skills stations are tested in OSCE?',
+        options: ['2', '4', '6', '8'],
+        correctIndex: 1,
+        explanation: 'The OSCE tests candidates on 4 clinical skills stations.'
+    },
+    {
+        id: 18,
+        type: 'mcq',
+        question: 'What is the fee for the Ultimate CBT course?',
+        options: ['£59.79', '£79.79', '£89.79', '£99.79'],
+        correctIndex: 2,
+        explanation: 'The Ultimate CBT course fee is £89.79.'
+    },
+    {
+        id: 19,
+        type: 'mcq',
+        question: 'How many days of access does the Short-Term CBT course provide?',
+        options: ['30', '45', '60', '90'],
+        correctIndex: 1,
+        explanation: 'Short-Term CBT course provides 45 days of access.'
+    },
+    {
+        id: 20,
+        type: 'mcq',
+        question: 'How much is the NMC registration stage fee?',
+        options: ['£140', '£153', '£83', '£299'],
+        correctIndex: 1,
+        explanation: 'The NMC registration stage fee is £153, payable during the second stage of the process.'
     }
 ];
